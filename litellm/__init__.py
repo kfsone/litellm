@@ -222,7 +222,9 @@ petals_models = [
 ]
 
 ollama_models = [
-    "llama2"
+    "mistral",
+    "llama2",
+    "vicuna",
 ]
 
 maritalk_models = [

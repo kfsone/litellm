@@ -543,6 +543,20 @@
         "input_cost_per_token": 0.000003,
         "output_cost_per_token": 0.000003
     },
+	"ollama/mistral": {
+		"max_tokens": 2048,
+		"input_cost_per_token": 0.0,
+		"output_cost_per_token": 0.0,
+		"litellm_provider": "ollama",
+		"mode": "chat"
+	},
+	"ollama/mistral:text": {
+		"max_tokens": 2048,
+		"input_cost_per_token": 0.0,
+		"output_cost_per_token": 0.0,
+		"litellm_provider": "ollama",
+		"mode": "completion"
+	},
     "ollama/llama2": {
         "max_tokens": 4096,
         "input_cost_per_token": 0.0,
@@ -571,6 +585,34 @@
         "litellm_provider": "ollama",
         "mode": "completion"
     },
+	"ollama/vicuna": {
+		"max_tokens": 2048,
+        "input_cost_per_token": 0.0,
+        "output_cost_per_token": 0.0,
+        "litellm_provider": "ollama",
+        "mode": "chat"
+	},
+	"ollama/vicuna:v1.3": {
+		"max_tokens": 2048,
+        "input_cost_per_token": 0.0,
+        "output_cost_per_token": 0.0,
+        "litellm_provider": "ollama",
+        "mode": "chat"
+	},
+	"ollama/vicuna:v1.5": {
+		"max_tokens": 2048,
+        "input_cost_per_token": 0.0,
+        "output_cost_per_token": 0.0,
+        "litellm_provider": "ollama",
+        "mode": "chat"
+	},
+	"ollama/vicuna:v1.5-16k": {
+		"max_tokens": 16384,
+        "input_cost_per_token": 0.0,
+        "output_cost_per_token": 0.0,
+        "litellm_provider": "ollama",
+        "mode": "chat"
+	},
     "deepinfra/meta-llama/Llama-2-70b-chat-hf": {
         "max_tokens": 6144,
         "input_cost_per_token": 0.000001875,
